@@ -21,6 +21,10 @@ export default function Clock() {
       const todaysDate = new Date();
       setCurrentDate(todaysDate.toDateString());
     }, 1000);
+
+    return () => {
+      clearInterval(dateInterval);
+    };
   }, []);
 
   return (
@@ -29,7 +33,7 @@ export default function Clock() {
       <br />
       {currentDate}
       <div>
-        <img src="/images/twoJacks.jpg" className="jackOLantern" />
+        <img src="/images/jack.jpg" className="jackOLantern" />
       </div>
     </div>
   );
