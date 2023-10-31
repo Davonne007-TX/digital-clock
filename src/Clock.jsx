@@ -32,9 +32,7 @@ export default function Clock() {
       {currentTime}
       <br />
       {currentDate}
-      <div>
-        <img src="/images/jack.jpg" className="jackOLantern" />
-      </div>
+      <div>{/* <img src="/images/jack.jpg" className="jackOLantern" /> */}</div>
     </div>
   );
 }
