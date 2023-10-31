@@ -5,10 +5,14 @@ export default function Clock() {
   const [currentTime, setCurrentTime] = useState();
 
   useEffect(() => {
-    setInterval(() => {
+    const interval = setInterval(() => {
       const date = new Date();
       setCurrentTime(date.toLocaleTimeString());
     }, 1000);
+
+    return () => {
+      clearInterval(interval);
+    };
   }, []);
 
   return <div className="time">{currentTime}</div>;

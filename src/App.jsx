@@ -1,13 +1,8 @@
-import { useState, useEffect } from "react";
 import Clock from "./Clock";
 import "./App.css";
 
 function App() {
-  return (
-    <>
-      <Clock />
-    </>
-  );
+  return <Clock />;
 }
 
 export default App;
