@@ -43,7 +43,7 @@ body {
 /* Tablets (415px and above) */
 @media screen and (min-width: 415px) {
   .time {
-    width: 680px;
+    width: 780px;
     font-size: 4em;
     text-align: center;
     padding: 10px;
