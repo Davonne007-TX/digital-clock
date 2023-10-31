@@ -1,8 +1,5 @@
-# React + Vite
+#Digital Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a special project that is close to me. When I first started to learn how to code, I was
+excited to learn how to do this, learning HTML CSS, and Javascript. I now have the chance to do
+this same project but now in React...!
