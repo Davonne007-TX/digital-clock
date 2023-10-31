@@ -1,13 +1,15 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import React from "react";
 
 export default function Clock() {
-  let time = new Date().toLocaleTimeString();
-  const [currentTime, setCurrentTime] = useState(time);
+  const [currentTime, setCurrentTime] = useState();
 
-  return (
-    <>
-      <h1>{currentTime}</h1>
-    </>
-  );
+  useEffect(() => {
+    setInterval(() => {
+      const date = new Date();
+      setCurrentTime(date.toLocaleTimeString());
+    }, 1000);
+  }, []);
+
+  return <div className="time">{currentTime}</div>;
 }
