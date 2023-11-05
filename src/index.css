@@ -19,10 +19,11 @@ body {
 
 .time {
   font-family: "Shrikhand", serif;
-  font-size: 5em;
+  font-size: 8em;
   padding: 40px;
-  border-radius: 50px;
-  border: 8px solid #ff4500;
+  border-radius: 20px;
+  color: #f54f8c;
+  border: 2px solid #f54f8c;
 }
 
 /* Mobile Phones (up to 414px) */
