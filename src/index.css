@@ -1,6 +1,6 @@
 :root {
   color: rgba(255, 255, 255, 0.87);
-  background-color: black;
+  background-color: #f54f8c;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,12 +18,10 @@ body {
 }
 
 .time {
-  font-family: "Shrikhand", serif;
-  font-size: 8em;
+  font-family: "Orbitron", sans-serif;
   padding: 40px;
   border-radius: 20px;
-  color: #f54f8c;
-  border: 2px solid #f54f8c;
+  color: white;
 }
 
 /* Mobile Phones (up to 414px) */
@@ -45,7 +43,7 @@ body {
 @media screen and (min-width: 415px) {
   .time {
     width: 780px;
-    font-size: 4em;
+    font-size: 5em;
     text-align: center;
     padding: 10px;
   }
