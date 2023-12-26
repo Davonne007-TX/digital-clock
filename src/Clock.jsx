@@ -28,7 +28,7 @@ export default function Clock() {
   }, []);
 
   return (
-    <div className="time">
+    <div className="time text-7xl font-sev">
       {currentTime}
       <br />
       {currentDate}

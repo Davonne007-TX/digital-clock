@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   color: rgba(255, 255, 255, 0.87);
   background-color: #f54f8c;
@@ -9,7 +13,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-/*clock.jsx*/
 body {
   display: flex;
   justify-content: center;
@@ -24,7 +27,7 @@ body {
   color: white;
 }
 
-/* Mobile Phones (up to 414px) */
+/*Mobile Phones (up to 414px) */
 @media screen and (max-width: 414px) {
   .time {
     width: 250px;
@@ -39,7 +42,7 @@ body {
   }
 }
 
-/* Tablets (415px and above) */
+/*Tablets (415px and above) */
 @media screen and (min-width: 415px) {
   .time {
     width: 780px;
